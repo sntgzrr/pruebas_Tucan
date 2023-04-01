@@ -1,0 +1,11 @@
+name,username,email,password,replace,ready,replace_email,ready_email,change_password,inv_password
+Santiago,Santiago,santiago@gmail.com,Clave@123,LilSantiago,Jaider,7santiago@gmail.com,peep@gmail.com,12345,123
+Jaider,Jaider,jaider@gmail.com,Clave@123,LilJaider,Santiago,7jaider@gmail.com,santiago@gmail.com,12345,123
+Felipe,Felipe,felipe@gmail.com,Clave123,LilFelipe,Diego,7felipe@gmail.com,santiago@gmail.com,12345,123
+Diego,Diego,diego@gmail.com,Clave123,LilDiego,Felipe,7diego@gmail.com,santiago@gmail.com,12345,123
+David,David,david@gmail.com,Clave123,LilDavid,Peep,7david@gmail.com,santiago@gmail.com,12345,123
+Peep,Peep,peep@gmail.com,Clave123,LilPeep,David,7peep@gmail.com,santiago@gmail.com,12345,123
+Niv,Niv,niv@gmail.com,Clave123,LilNiv,Lil,7niv@gmail.com,santiago@gmail.com,12345,123
+Lil,Lil,lil@gmail.com,Clave123,LilLil,Niv,7lil@gmail.com,santiago@gmail.com,12345,123
+Foo,Foo,foo@gmail.com,Clave123,LilFoo,Ever,7foo@gmail.com,santiago@gmail.com,12345,123
+Ever,Ever,ever@gmail.com,Clave123,LilEver,Foo,7ever@gmail.com,santiago@gmail.com,12345,123
