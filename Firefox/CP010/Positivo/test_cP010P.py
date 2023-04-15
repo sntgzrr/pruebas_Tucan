@@ -52,6 +52,7 @@ class TestCP010P():
           self.test010p.setup_method()
           self.test010p.test_cP010P(name=row["name"], email=row["email"], password=row["password"], change_password=row["change_password"])
           self.test010p.teardown_method()
+          print("Cambio de contraseña actual",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP010P")
       

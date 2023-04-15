@@ -46,6 +46,7 @@ class TestCP009P():
           self.test009p.setup_method()
           self.test009p.test_cP009P(email=row["email"], password=row["password"], replace_email=row["replace_email"])
           self.test009p.teardown_method()
+          print("Cambio de email actual del perfil",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP009P")
       

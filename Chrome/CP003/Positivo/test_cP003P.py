@@ -44,6 +44,7 @@ class TestCP003P():
           self.test003p.setup_method()
           self.test003p.test_cP003P(email=row["email"], password=row["password"], name=row["name"])
           self.test003p.teardown_method()
+          print("Publicación",row["id"],"hecha correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP003P")
       

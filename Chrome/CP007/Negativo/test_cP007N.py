@@ -47,6 +47,7 @@ class TestCP007N():
           self.test007n.setup_method()
           self.test007n.test_cP007N(email=row["email"], password=row["password"])
           self.test007n.teardown_method()
+          print("Descripción extensa en la biografía del perfil",row["id"],"hecha correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP007N")
         

@@ -43,6 +43,7 @@ class TestCP001P():
           self.test001p.setup_method()
           self.test001p.test_cP001P(name=row["name"], username=row["username"], email=row["email"], password=row["password"])
           self.test001p.teardown_method()
+          print("Registro",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP001P")
       

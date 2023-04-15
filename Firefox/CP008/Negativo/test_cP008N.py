@@ -44,6 +44,7 @@ class TestCP008N():
           self.test009n.setup_method()
           self.test009n.test_cP008N(email=row["email"], password=row["password"], ready=row["ready"])
           self.test009n.teardown_method()
+          print("Cambio de nombre por uno ya existente",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP008N")
       

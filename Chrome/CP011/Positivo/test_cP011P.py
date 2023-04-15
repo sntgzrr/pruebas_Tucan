@@ -44,6 +44,7 @@ class TestCP011P():
           self.test011p.setup_method()
           self.test011p.test_cP011P(email=row["email"], password=row["password"], name=row["name"])
           self.test011p.teardown_method()
+          print("Ingreso",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP011P")
       

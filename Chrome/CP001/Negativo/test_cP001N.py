@@ -44,6 +44,7 @@ class TestCP001N():
           self.test001n.setup_method()
           self.test001n.test_cP001N(username=row["username"], email=row["email"], password=row["password"])
           self.test001n.teardown_method()
+          print("Registro sin rellenar el campo nombre",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP001N")
       

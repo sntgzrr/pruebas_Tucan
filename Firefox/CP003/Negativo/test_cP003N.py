@@ -42,6 +42,7 @@ class TestCP003N():
           self.test003n.setup_method()
           self.test003n.test_cP003N(email=row["email"], password=row["password"])
           self.test003n.teardown_method()
+          print("Publicación excediendo los caracteres máximos",row["id"],"hecha correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP003N")
       

@@ -42,6 +42,7 @@ class TestCP011N():
           self.test011n.setup_method()
           self.test011n.test_cP011N(email=row["email"], username=row["username"])
           self.test011n.teardown_method()
+          print("Ingreso con contraseña errónea",row["id"],"hecho correctamente.")
     except:
       print("Algo inesperado ha ocurrido en el CP011N")
       
