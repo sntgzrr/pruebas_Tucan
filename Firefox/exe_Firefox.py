@@ -3,6 +3,8 @@ from CP001.Positivo import test_cP001P
 from CP001.Negativo import test_cP001N
 from CP003.Positivo import test_cP003P
 from CP003.Negativo import test_cP003N
+from CP005.Positivo import test_cP005P
+from CP005.Negativo import test_cP005N
 from CP007.Positivo import test_cP007P
 from CP007.Negativo import test_cP007N
 from CP008.Positivo import test_cP008P
@@ -18,6 +20,8 @@ exe001p = test_cP001P.TestCP001P()
 exe001n = test_cP001N.TestCP001N()
 exe003p = test_cP003P.TestCP003P()
 exe003n = test_cP003N.TestCP003N()
+exe005p = test_cP005P.TestCP005P()
+exe005n = test_cP005N.TestCP005N()
 exe007p = test_cP007P.TestCP007P()
 exe007n = test_cP007N.TestCP007N()
 exe008p = test_cP008P.TestCP008P()
@@ -35,6 +39,9 @@ exe001n.exeCP001N()
 # CP003
 exe003p.exeCP003P()
 exe003n.exeCP003N()
+# CP005
+exe005p.exeCP005P()
+exe005n.exeCP005N()
 # CP007
 exe007p.exeCP007P()
 exe007n.exeCP007N()
@@ -47,6 +54,6 @@ exe009n.exeCP009N()
 # CP010
 exe010p.exeCP010P()
 exe010n.exeCP010N()
-# CP010
+# CP011
 exe011p.exeCP011P()
 exe011n.exeCP011N()
