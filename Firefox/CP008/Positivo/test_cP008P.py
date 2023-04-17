@@ -41,7 +41,7 @@ class TestCP008P():
         self.reader=csv.DictReader(c)
         for row in self.reader:
           self.test009p.setup_method()
-          self.test009p.test_cP008P(email=row["email"], password=row["password"], replace=row["replace"])
+          self.test009p.test_cP008P(email=row["email"], password=row["password"], replace=row["replace_name"])
           self.test009p.teardown_method()
           print("Cambio de nombre",row["id"],"hecho correctamente.")
     except:

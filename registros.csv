@@ -1,4 +1,4 @@
-id,name,username,email,password,replace,ready,replace_email,ready_email,change_password,inv_password
+id,name,username,email,password,replace_name,ready_name,replace_email,ready_email,change_password,inv_password
 1,Santiago,Santiago,santiago@gmail.com,Clave@123,LilSantiago,Jaider,7santiago@gmail.com,peep@gmail.com,12345,123
 2,Jaider,Jaider,jaider@gmail.com,Clave@123,LilJaider,Santiago,7jaider@gmail.com,santiago@gmail.com,12345,123
 3,Felipe,Felipe,felipe@gmail.com,Clave123,LilFelipe,Diego,7felipe@gmail.com,santiago@gmail.com,12345,123
